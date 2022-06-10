@@ -104,4 +104,7 @@ theme: stellar
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-type: ''
+  type: git
+  repo: https://github.com/yxwp9900/wdeBlog.github.io
+  # example, https://github.com/hexojs/hexojs.github.io
+  branch: master
